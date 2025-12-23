@@ -21,10 +21,7 @@ const FooterSection = () => {
           </div>
 
           {/* Coaching Programs Card */}
-          <div
-            className="relative rounded-3xl overflow-hidden w-full lg:w-80 h-64 sm:h-80 bg-cover bg-center"
-            style={{ backgroundImage: "url('path-to-coaching-image.jpg')" }}
-          >
+          <div className="relative rounded-3xl overflow-hidden w-full lg:w-80 h-64 sm:h-80 bg-cover bg-center">
             <div className="absolute inset-0 bg-[url(/hero.webp)] bg-cover bg-center"></div>
             <div className="relative z-10 p-6 sm:p-8 h-full flex flex-col justify-between text-white">
               <span className="bg-white/30 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm w-fit">
@@ -37,10 +34,7 @@ const FooterSection = () => {
           </div>
 
           {/* Court Rental Card */}
-          <div
-            className="relative rounded-3xl overflow-hidden w-full lg:w-80 h-64 sm:h-80 bg-cover bg-center"
-            style={{ backgroundImage: "url('path-to-tennis-balls-image.jpg')" }}
-          >
+          <div className="relative rounded-3xl overflow-hidden w-full lg:w-80 h-64 sm:h-80 bg-cover bg-center">
             <div className="absolute inset-0 bg-[url(/hero.webp)] bg-cover bg-center"></div>
             <div className="relative z-10 p-6 sm:p-8 h-full flex flex-col justify-between text-white">
               <span className="bg-white/30 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm w-fit">
