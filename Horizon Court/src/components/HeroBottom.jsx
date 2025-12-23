@@ -1,5 +1,5 @@
 import React from "react";
-import SocialButton from "./SocialButton";
+import SocialButton from "./SocialButtons.jsx";
 import { socialLinks } from "../constants";
 
 const HeroBottom = () => {
