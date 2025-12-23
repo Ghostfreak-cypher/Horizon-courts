@@ -33,7 +33,8 @@ const Navbar = () => {
 
       {/* Desktop Book Button */}
       <button className="hidden lg:flex justify-center items-center border-2 pl-4 p-2 rounded-4xl bg-black text-white hover:bg-zinc-800 hover:scale-105 hover:shadow-lg transition-all duration-300 group">
-        Book now <MdOutlineArrowOutward className="text-2xl group-hover:rotate-45 transition-transform duration-300" />
+        Book now{" "}
+        <MdOutlineArrowOutward className="text-2xl group-hover:rotate-45 transition-transform duration-300" />
       </button>
 
       {/* Mobile Menu Button */}
@@ -64,7 +65,8 @@ const Navbar = () => {
               </a>
             ))}
             <button className="flex justify-center items-center border-2 pl-4 p-2 rounded-4xl bg-black text-white w-full max-w-xs hover:bg-zinc-800 hover:scale-105 hover:shadow-lg transition-all duration-300 group">
-              Book now <MdOutlineArrowOutward className="text-2xl group-hover:rotate-45 transition-transform duration-300" />
+              Book now{" "}
+              <MdOutlineArrowOutward className="text-2xl group-hover:rotate-45 transition-transform duration-300" />
             </button>
           </div>
         </div>
